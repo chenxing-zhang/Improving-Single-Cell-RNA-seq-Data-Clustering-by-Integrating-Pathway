@@ -91,8 +91,7 @@ clean_sets <- function(gSet){
 
 # adding pathway: SNF
 integrating_pathway <- function(mat_gene, mat_path){
-  # K = 20; # number of neighbors, usually (10~30)
-  K = ceiling(dim(mat_gene)[2]/10); # number of neighbors, usually (10~30)
+  K = 10; # number of neighbors, usually (10~30)
   alpha = 0.5; # hyperparameter, usually (0.3~0.8)
   T = 20; # Number of Iterations, usually (10~20)
   mat_gene = t(mat_gene)
