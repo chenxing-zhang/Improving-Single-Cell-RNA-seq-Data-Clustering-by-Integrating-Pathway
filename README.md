@@ -12,6 +12,15 @@ We designed a framework (sciPath) to study the accuracy and robustness of existi
  
 ## Codes
 1.clustering_by_gene_only.R
+  Single cell clustering that only consider gene-level information, including 'kmeans','hierarchical','spectral','DBSCAN','SC3','Seurat','CIDR','pcaReduce','SOUP','SNN-Cliq'. 
+  
+2.clustering_by_integreting_pathway.R
+  Single cell clustering integrating pathway-level information, including 10 clustering method and integration method (SNF).
+  
+3.data_simulation_with_noise.R
+  The generation of three different expression profiles with noise, including "randomly set to 0" (function "simulation_0"), "gaussian noise" (function "simulation_gaussian") and "randomly amplify" (function "simulation_gaussian")
+
+4.evaluation.R
 
 ## Reference
 Zhang C, Gao L, Wang B, Gao Y. Improving Single-Cell RNA-seq Clustering by Integrating Pathway. Briefings in Bioinformatics. (Revision)
