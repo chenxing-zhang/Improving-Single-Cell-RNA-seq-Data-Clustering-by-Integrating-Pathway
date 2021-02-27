@@ -6,7 +6,7 @@ We designed a framework (sciPath) to study the accuracy and robustness of existi
 
 ## Preparations
 **1. Datasets**  
-Demo datasets are saved in ".//Demo_data", including scRNA-swq matrix (".//Demo_data//matrix"), pathway (".//Demo_data//pathway") and cell labels (".//Demo_data//label").
+Demo datasets are saved in `".//Demo_data"`, including scRNA-swq matrix (".//Demo_data//matrix"), pathway (".//Demo_data//pathway") and cell labels (".//Demo_data//label").
 
 **2. Package installation**  
 The installation code of the offline package and the online package are saved in ".//package//package_install.R".
