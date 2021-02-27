@@ -22,6 +22,7 @@ We designed a framework (sciPath) to study the accuracy and robustness of existi
   The generation of three different expression profiles with noise, including "randomly set to 0" (function "simulation_0"), "gaussian noise" (function "simulation_gaussian") and "randomly amplify" (function "simulation_gaussian")
 
 4.evaluation.R
+  The evaluation of accuracy and robustness of clustering methods, including ARI(function "evaluation_ARI"), NMI(function "evaluation_NMI"), MES(function "evaluation_MES") and AUC(function "evaluation_AUC").
 
 ## Reference
 Zhang C, Gao L, Wang B, Gao Y. Improving Single-Cell RNA-seq Clustering by Integrating Pathway. Briefings in Bioinformatics. (Revision)
