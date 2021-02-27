@@ -13,7 +13,7 @@ The installation code of the offline package and the online package are saved in
  
 ## Codes
 **1. clustering_by_gene_only.R**  
-Single cell clustering that only consider gene-level information, including (1)K-means, (2)Hierarchical, (3)Spectral,'DBSCAN','SC3','Seurat','CIDR','pcaReduce','SOUP','SNN-Cliq'. 
+Single cell clustering that only consider gene-level information, including (1)K-means, (2)Hierarchical, (3)Spectral, (4)DBSCAN, (5)SC3, (6)Seurat, (7)CIDR, (8)pcaReduce, (9)SOUP, (10)SNN-Cliq. 
   
 **2. clustering_by_integreting_pathway.R**  
 Single cell clustering integrating pathway-level information, including 10 clustering methods, pathway score method (AUCell, function `"pathway_scoring"`) and integration method (SNF, function `"integrating_pathway"`).
