@@ -8,6 +8,8 @@ We designed a framework (sciPath) to study the accuracy and robustness of existi
 2.Package installation:
   The installation code of the offline package and the online package are saved in ".//package//package_install.R".
  
-## The descriptions:
+## The descriptions
 1.clustering_by_gene_only.R
 
+## Reference
+Zhang C, Gao L, Wang B, Gao Y. Improving Single-Cell RNA-seq Clustering by Integrating Pathway. Briefings in Bioinformatics. (Revision)
