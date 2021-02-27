@@ -16,7 +16,7 @@ The installation code of the offline package and the online package are saved in
 Single cell clustering that only consider gene-level information, including 'kmeans','hierarchical','spectral','DBSCAN','SC3','Seurat','CIDR','pcaReduce','SOUP','SNN-Cliq'. 
   
 **2. clustering_by_integreting_pathway.R**  
-Single cell clustering integrating pathway-level information, including 10 clustering method and integration method (SNF).
+Single cell clustering integrating pathway-level information, including 10 clustering methods, pathway score method (AUCell, function `"pathway_scoring"`) and integration method (SNF, function `"integrating_pathway"`).
   
 **3. data_simulation_with_noise.R**  
 The generation of three different expression profiles with noise, including "randomly set to 0" (function `"simulation_0"`), "gaussian noise" (function `"simulation_gaussian"`) and "randomly amplify" (function `"simulation_gaussian"`)
