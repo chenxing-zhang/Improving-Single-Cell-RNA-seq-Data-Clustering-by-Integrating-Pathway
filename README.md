@@ -1,5 +1,6 @@
 # sciPath
 Improving Single-Cell RNA-seq Clustering by Integrating Pathways
+![image](https://github.com/chenxing-zhang/sciPath/blob/master/sciPath/sciPath_schematic.png)
 
 ## Descriptions
 We designed a framework (sciPath) to study the accuracy and robustness of existing single-cell clustering by integrating pathways, including 10 state-of-art single-cell clustering methods and 4 pathway databases, pathway integration method and a complete set of evaluation indicators.
