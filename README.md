@@ -26,4 +26,4 @@ The generation of three different expression profiles with noise, including "ran
 The evaluation of accuracy and robustness of clustering methods, including ARI (function `"evaluation_ARI"`), NMI (function `"evaluation_NMI"`), MES (function `"evaluation_MES"`) and AUC (function `"evaluation_AUC"`).
 
 ## Reference
-Zhang C, Gao L, Wang B, Gao Y. Improving Single-Cell RNA-seq Clustering by Integrating Pathways. Briefings in Bioinformatics. (Revision)
+Zhang C, Gao L, Wang B, Gao Y. Improving Single-Cell RNA-seq Clustering by Integrating Pathways. Briefings in Bioinformatics. 2021 May 3:bbab147. doi: 10.1093/bib/bbab147. 
