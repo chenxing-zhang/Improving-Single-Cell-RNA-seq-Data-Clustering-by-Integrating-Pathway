@@ -70,6 +70,6 @@ evaluation_MES <- function(mat_gene,clust_results,label_int,thre){
 # accuracy_List, A vector of accuracy indicators, arranged in ascending or descending order of noise proprotion
 evaluation_AUC<- function(accuracy_List){
   len = length(accuracy_List)
-  AUC = (2 * sum(accuracy_List) - accuracy_List[0] - accuracy_List[len]) / (2.0 * len(accuracy_List))
+  AUC = (2 * sum(accuracy_List) - accuracy_List[1] - accuracy_List[len]) / (2.0 * len)
   return(AUC)
 }
