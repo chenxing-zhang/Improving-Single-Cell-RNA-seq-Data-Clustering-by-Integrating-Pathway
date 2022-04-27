@@ -136,7 +136,7 @@ clustering_by_integrating_pathway<- function(mat_gene,mat_path,W,cName,k){
          rowData(sce)$feature_symbol <- rownames(sce)
          a <- sc3(sce, ks = k, biology = FALSE, gene_filter = FALSE) #SC3
          concens_mat = a@metadata$sc3$consensus[[as.character(k)]]$consensus   # concens matrix
-         W=adding_pathway(concens_mat, mat_path)
+         W=integrating_pathway(concens_mat, mat_path)
          y = spectralClustering(W, k)
          clust_results= as.numeric(y)},
          
@@ -148,7 +148,7 @@ clustering_by_integrating_pathway<- function(mat_gene,mat_path,W,cName,k){
          pbmc <- RunPCA(object = pbmc)
          a = pbmc@reductions$pca@cell.embeddings
          b = a[,1:10]
-         W=adding_pathway(t(b), mat_path)
+         W=integrating_pathway(t(b), mat_path)
          y = spectralClustering(W, k)
          clust_results= as.numeric(y)},
          
